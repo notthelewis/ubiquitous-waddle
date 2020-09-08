@@ -9,5 +9,5 @@ The directory structure:
   - ``` largest_power_of_two ``` 
       - Has various solutions for working out the largest power of two in a given number.
   - ``` sorting ```
-      - Bubble sort
-      - Merge sort
+      - Bubble sort O(n^2)
+      - Merge sort O(n log (n))
