@@ -11,3 +11,5 @@ The directory structure:
   - ``` sorting ```
       - Bubble sort O(n^2)
       - Merge sort O(n log (n))
+  - ``` Count inversions ```
+      - Uses merge sort algorithm to count the number of inversions in an array of numbers
