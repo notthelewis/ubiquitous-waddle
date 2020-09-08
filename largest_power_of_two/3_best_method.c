@@ -3,7 +3,7 @@
 	However, it uses a bitmask to efficiently discover this.
 */
 
-int bestMeth(int number)
+long bestMeth(long number)
 {
 	int bm = number & 1;
 	if (bm == 0){
