@@ -8,3 +8,6 @@ The directory structure:
 
   - ``` largest_power_of_two ``` 
       - Has various solutions for working out the largest power of two in a given number.
+  - ``` sorting ```
+      - Bubble sort
+      - Merge sort
