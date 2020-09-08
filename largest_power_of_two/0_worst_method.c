@@ -7,8 +7,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*	This works because the largest factor of two is always a half
-	The loop starts from one (because 0*0 = 0) and accounts for this
+/*	The loop starts from one (because 0*0 = 0) and accounts for this
 	By adding one to half of the given number.
 */
 int getFactorOfTwo(int number)
