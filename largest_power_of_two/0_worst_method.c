@@ -37,6 +37,6 @@ int main(int argc, char const *argv[])
 	
 	cpu_time_used = ((double) (end-start)) / CLOCKS_PER_SEC;
 	
-	printf("This method takes %f clock cycles to compute the highest factor of: %ld \n", cpu_time_used, number);
+	printf("This method takes %f clock cycles to compute the highest factor of 2 in: %ld \n", cpu_time_used, number);
 	printf("And it gets the result %ld\n", result);
 }
