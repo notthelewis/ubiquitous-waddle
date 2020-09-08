@@ -11,9 +11,8 @@ int checkOddLast(int number)
 {
 	int lastDigit = number % 10;
 
-	if (lastDigit % 2 == 0) { 
+	if (lastDigit % 2 == 0)
 		return number;
-	}
 
 	return number-1;
 }
